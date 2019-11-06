@@ -1,0 +1,6 @@
+import numpy
+w=0
+A=numpy.arange(1,26).reshape(5,5)
+for i in range(5):
+    w = w + A[i][i]
+print (w)
